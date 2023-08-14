@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <style>
+        body {
+            background-image: url("tır.jpg");
+            background-repeat: no-repeat;
+            overflow-x: hidden !important;
+        }
+            .kabuk {
+                width:100%;
+            }
+             .amazingslider-wrapper{
+                 position: relative;
+                 top:339px;
+             }
+            .üst {
+                background-color: white;
+                width:1200px;
+                height: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+            }
+
+            .üst2 {
+                background-color: #5b5b5b;
+                width: 510px;
+                height: 30px;
+                position: relative;
+                left: 400px;
+                bottom: 55px;
+                color: white;
+                font-size: 12px;
+            }
+
+                .üst2 a {
+                    margin-right: 20px;
+                    position:relative;
+                    top:-15px;
+                    left:5px;
+                }
+
+            .logo {
+                padding-top: 10px;
+            }
+
+            .list {
+                margin-top: -75px;
+                margin-left: 400px;
+                font-size: 25px;
+            }
+
+                .list ul li {
+                    float: left;
+                    margin-right: 30px;
+                    list-style-image: url("maddeimi.png");
+                }
+
+                    .list ul li a {
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                        .list ul li a:hover {
+                            background-color: red;
+                        }
+
+            .ortares {
+                width: 100%;
+            }
+
+            .yazi {
+                color:black;
+                margin-left: 50px;
+                margin-bottom: 0px;
+                margin-top: 80px;
+            }
+
+                .yazi h1 {
+                    margin-bottom: -10px;
+                }
+
+                .yazi h2 {
+                    margin-bottom: -20px;
+                }
+
+            .neden {
+                background-color: #222222;
+                margin-top: 338px;
+                width: 1350px;
+                margin-left: -8px;
+                height: 125px;
+                text-align: center;
+                color: white;
+            }
+
+                .neden h4 {
+                    color: gray;
+                }
+
+            .gri {
+                width:675px;
+                height: 35px;
+                background-color: #222222;
+                margin-left: -12px;
+                margin-top: -105px;
+                border-radius: 10px;
+                font-size: 25px;
+                color: white;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            .turuncu {
+                width: 675px;
+                height: 35px;
+                margin-right:-10px;
+                background-color: #ffb118;
+                float: right;
+                margin-top: -65px;
+                font-size: 25px;
+                color: white;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            .kamyon img {
+                width: 50%;
+                padding-left: 25px;
+            }
+
+            .kamyon {
+                background-color: gray;
+                width:15%;
+                position: relative;
+                left: 560px;
+                bottom: 15px;
+                border-radius: 300px;
+            }
+
+                .kamyon:hover {
+                    background-color: white;
+                }
+
+            .enönemli {
+                background-color: #ffb118;
+                width: 1350px;
+                margin-top: 0px;
+                height: 150px;
+                float: left;
+                margin-left: -7px;
+                text-align: center;
+            }
+
+                .enönemli h3 {
+                    color: gray;
+                }
+
+            .ucak {
+                background-color: white;
+                width:1350px;
+                height: 440px;
+                margin-left: -18px;
+                text-align: center;
+            }
+
+            .ucak1 {
+                float: left;
+                margin-left: -20px;
+            }
+
+            .ucak2 {
+                float: right;
+            }
+
+            .y1 {
+                font-size: 20px;
+                padding-top: 20px;
+            }
+
+            .y2 {
+                font-size: 35px;
+                color: #ffb118;
+            }
+
+            .y3 {
+                font-size: 25px;
+            }
+
+            .yazi2 {
+                position: relative;
+                top: 110px;
+            }
+
+            .firmalar {
+                padding-top: 50px;
+                padding-left: 350px;
+                color: gray;
+            }
+
+            .kutu1 {
+                background-color: white;
+                height: 300px;
+                width: 20%;
+                float: left;
+                margin-left: 0px;
+                padding-left: 10px;
+            }
+
+            .kutu2 {
+                background-color: white;
+                height: 300px;
+                width: 20%;
+                float: left;
+                margin-left: 50px;
+                padding-left: 10px;
+            }
+
+            .kutu3 {
+                background-color: white;
+                height: 300px;
+                width: 20%;
+                float: left;
+                margin-left: 50px;
+                padding-left: 10px;
+            }
+
+            .kutu1 img {
+                width: 50%;
+                padding-left: 20px;
+            }
+
+            .kutu2 img {
+                width: 50%;
+                padding-left: 20px;
+            }
+
+            .kutu3 img {
+                width: 50%;
+                padding-left: 20px;
+            }
+
+            .firmalar h4 {
+                color: orange;
+                margin: auto;
+            }
+
+            .kutu1:hover {
+                background-color: red;
+            }
+
+            .kutu2:hover {
+                background-color: red;
+            }
+
+            .kutu3:hover {
+                background-color: red;
+            }
+
+            .footer {
+                background-color: #222222;
+                height: 300px;
+                width:1350px;
+                margin-left: -8px;
+                color: white;
+            }
+
+            .ist {
+                float: left;
+                margin-top: 70px;
+                margin-left: 50px;
+            }
+
+            .ort {
+                position: relative;
+                left: 250px;
+                top: 50px;
+            }
+                .lg {
+                     position: relative;
+                     left: 92px;
+                     bottom:20px;
+                }
+
+                .footerlogo {
+                    position: relative;
+                    left:50px;
+                }
+                
+
+            .bur {
+                float: right;
+                margin-right: 200px;
+                margin-top: -155px;
+            }
+
+            .res img {
+                width: 35px;
+                margin-top: 30px;
+            }
+    </style>
+</head>
+<body>
+    <div class="kabuk">
+        <div class="üst">
+            
+            <div class="logo">
+                <img src="logo.png"/>
+            </div>
+           <div class="list">
+               <ul>
+                   <li><a href="anasayfa.html">Anasayfa</a></li>
+                   <li><a href="galeri.html">Galeri</a></li>
+                   <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                   <li><a href="Ehizmetler.html">E-Hizmetler</a></li>
+                   <li><a href="iletişim.html">İletişim</a></li>
+               </ul>
+           </div>
+            <div class="üst2">
+                <a>TEL : 0850 BİS 0850</a> <a>EMAIL:WEB@BISLOGISTICS.COM.TR </a><a> PZT - CMT : 07:30 - 19:00</a>
+            </div>
+        </div>
+        <div class="yazi"><h2>NAKLİYAT LOJİSTİK</h2>
+        <br />
+        <h1>KARAYOLU TAŞIMACILIĞI</h1>
+        <br />
+            <h3>Karayolu komple ve parsiyel taşımacılığında uzman ekibimiz,her yüke uygun araç çaşitlerimiz ile en uygun teklifi alın!</h3>
+        </div>
+        <div class="firmalar">
+            <div class="kutu1">
+                <img src="motogp.jpg" />
+                <h4>MOTO GP TÜRKİYE</h4>
+                <a class="yaz">Türkiye'de düzenlenen ilk MOTOGP yarışının lojistik, gümrükleme ve depolama ihtiyaçlarını Bis Ulusal Lojistik karşılamıştır.</a>
+            </div>
+            <div class="kutu2">
+                <img src="gumball3000.jpg" />
+                <h4>GUM BALL 3000</h4>
+                Türkiye'de yapılan GUM BALL 3000 klasik otomobil yarışının lojistik ve depolama ihtiyaçlarını Bis Ulusal Lojistik karşılamıştır.
+            </div>
+            <div class="kutu3">
+                <img src="formula1.jpg" />
+                <h4>FORMULA 1 TÜRKİYE</h4>
+                Türkiye'de düzenlenen ilk FORMULA 1 yarışının lojistik, gümrükleme ve depolama ihtiyaçlarını Bis Ulusal Lojistik karşılamıştır.
+            </div>
+        </div>
+        <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1350px;margin:0px auto 0px;">
+            <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li>
+                        <img src="sliderimages/1.PNG" alt="1" title="1" />
+                    </li>
+                    <li>
+                        <img src="sliderimages/2.PNG" alt="2" title="2" />
+                    </li>
+                    <li>
+                        <img src="sliderimages/3.PNG" alt="3" title="3" />
+                    </li>
+                    <li>
+                        <img src="sliderimages/4.PNG" alt="4" title="4" />
+                    </li>
+                    <li>
+                        <img src="sliderimages/5.PNG" alt="5" title="5" />
+                    </li>
+                    <li>
+                        <img src="sliderimages/6.PNG" alt="6" title="6" />
+                    </li>
+                </ul>
+                <div class="amazingslider-engine"><a href="http://amazingslider.com" title="JavaScript Image Slideshow">JavaScript Image Slideshow</a></div>
+            </div>
+        </div>      
+
+        <div class="neden">
+            <h2>NEDEN NAKLİYAT</h2>
+            <h4><i></i>NAKLİYAT LOJİSTİK SEKTÖRDE 20 YILI AŞKIN TECRÜBESİ, TEKNOLOJİYİ ETKİN KULLANMASI,<br /> UZMAN PERSONEL YAPISI VE BİRLEŞİK HİZMETLERİYLE TÜM İHTİYAÇLARINIZI<br /> KARŞILAMAYA HAZIR.</h4>
+        </div>
+        <div class="tam">
+            <div class="kamyon">
+                <img src="delivery55.png" />
+            </div>       
+            <div class="gri">TAM ZAMANINDA</div>
+            <div class="turuncu">TAM İSTEDİĞİNİZ GİBİ</div>
+        </div>
+        <div class="enönemli">
+            <h1>“Bizim İçin En Önemli İlke”</h1>
+            <h3><i>
+    Bizler çok iyi biliyoruz ki...Müşteri memnuniyeti herşeyden önce gelmektedir.İşte bu nedenle...<br />
+    ÇALIŞMANIN, ÜRETMENİN, GELİŞMENİN VE HİZMETİN NAKLİYAT LOJİSİTİK için sınırı yoktur.
+</i>
+            </h3>
+        </div>
+        <div class="ucak">
+         <img src="ucak.png" class="ucak1" />
+         <img src="ucak2.png" class="ucak2" />
+            <div class="yazi2">
+                <a class="y1">HEMEN ARAYIN TEKLİF ALIN!</a><br />
+                <a class="y2">0850 BİS 0850</a><br />
+                <a class="y3">WEB@BISLOGISTICS.COM.TR</a>
+            </div>
+</div>
+        <div class="footer">
+            <div class="ist">İSTANBUL MERKEZ<br /><br />
+             Tel: (+90) 212 656 76 76<br />
+             Fax: (+90) 212 656 76 35<br />
+             web@bislogistics.com.tr<br />
+             Akçaburgaz Mh. 3108 Sk.<br />
+             No: 3/1 Kıraç 34522<br />
+             Esenyurt / İstanbul
+            </div>
+            <div class="ort">
+                <img class="footerlogo"  src="logo.png"/><br />
+                Bis Ulusal Lojistik deneyimli kadrosu ve hızlı servisi ile<br />
+                 gümrüklere, uluslararası nakliye şirketlerinin<br />
+                 depolama, ihracat ve ithalat taşımaları yapmaktadır.
+                <div class="res">
+                <a href="https://www.facebook.com"><img class="lg" src="fb.png"/></a>
+                <a href="https://www.youtube.com"><img class="lg" src="yt.png" /></a>
+                <a href="https://www.google.com/maps/place/Pendik+İTO+Mesleki+ve+Teknik+Anadolu+Lisesi/@40.8559364,29.2834882,17z/data=!3m1!4b1!4m5!3m4!1s0x14cadc67300cf4bf:0x83f30d774c444bed!8m2!3d40.8559322!4d29.2856823"><img class="lg" src="map.png" /></a>
+            </div>
+            </div>
+            <div class="bur">
+                BURSA ŞUBE<br /><br />
+                Tel: (+90) 224 241 34 34<br />
+                Fax: (+90) 224 242 68 52<br />
+                bursa@bislogistics.com.tr<br />
+                OSB Ali Osman Sönmez Blv.<br />
+                1. Sok. No:2, 16140<br />
+                Nilüfer / Bursa
+            </div>
+        </div>
+    </div>
+</body>
+</html>
